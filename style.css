@@ -161,6 +161,32 @@ td {
 	margin-bottom: 40px;
 }
 
+.profilemenu {
+    width: 50%;
+    margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 18px;
+}
+
+.profilemenu img {
+	width: 100%;
+    /* 角丸にする */
+	border-radius: 25px 25px 0 0;
+}
+
+.profilemenu a {
+	width: 40%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+
 /* 制作一覧 */
 .productionmenu {
 	width: 100%;
